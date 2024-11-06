@@ -1,0 +1,94 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  /* font-family: "Titan One", sans-serif; */
+  font-family: "Fugaz One", sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: #e3afc7;
+}
+
+body > div {
+  border-radius: 30px;
+  border: 5px solid #bb255f;
+  padding: 20px 30px;
+  background: #bb255f;
+  color: #fffffe;
+  width: 500px;
+}
+
+body > div + div {
+  padding: 20px;
+  margin-top: 30px;
+  background: #e3afc7;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 100px;
+  text-align: center;
+  margin: 20px 0px;
+  text-decoration: underline;
+}
+
+div {
+  margin: 0% 35%;
+}
+
+button {
+  background: #f5d4df;
+  color: #bb255f;
+  padding: 10px 20px;
+  height: auto;
+  width: auto;
+  border: 3px solid #bb255f;
+  font-size: 50px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background: #bb255f;
+  color: #f5d4df;
+  border: 3px solid ##bb255f;
+  cursor: pointer;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
